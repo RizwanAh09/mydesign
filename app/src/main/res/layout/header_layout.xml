@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#D280D8FF"
+    android:paddingLeft="15dp">
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="Welcome to the side navigation"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/slogan"
+        android:fontFamily="@font/aclonica"
+        android:text="hello there!"
+        android:textFontWeight="600"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/name"
+        android:src="@drawable/mortarboard" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/boat" />
+
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/warning"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALERT"
+                android:textFontWeight="600"
+                android:textColor="@color/black"
+                android:layout_marginLeft="2dp"
+                android:textSize="14sp"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you really want to know how we work?"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textFontWeight="500"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2D8DFF"
+            app:backgroundTint="@color/white"
+            android:text="Yes"
+            app:strokeWidth="1dp"
+            app:cornerRadius="5dp"
+            app:elevation="8dp"
+                android:layout_marginRight="10dp"
+            app:strokeColor="#2D8DFF"
+            android:layout_weight="1"
+
+            />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2D8DFF"
+                app:backgroundTint="@color/white"
+                android:text="No"
+                app:strokeWidth="1dp"
+                android:layout_marginLeft="10dp"
+                app:cornerRadius="5dp"
+                app:elevation="8dp"
+                app:strokeColor="#2D8DFF"
+                android:layout_weight="1"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
