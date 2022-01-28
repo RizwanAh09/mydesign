@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="40dp">
+            android:layout_marginTop="20dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -46,22 +46,25 @@
                 app:endIconMode="clear_text"
                 app:endIconTint="@color/black">
 
-
-
-
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fullName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:inputType="text"/>
 
-
-
-
-
-
-
             </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/fullNameError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Your Name"
+                android:textColor="#E10606"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"/>
+
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -74,22 +77,25 @@
                 app:endIconMode="clear_text"
                 app:endIconTint="@color/black">
 
-
-
-
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/userName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:inputType="text"/>
 
-
-
-
-
-
-
             </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/userErrorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter User Name"
+                android:textColor="#E10606"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"/>
+
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -102,22 +108,25 @@
                 app:endIconMode="clear_text"
                 app:endIconTint="@color/black">
 
-
-
-
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:inputType="textEmailAddress"/>
 
-
-
-
-
-
-
             </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/emailError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Your Email"
+                android:textColor="#E10606"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"/>
+
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -130,22 +139,25 @@
                 app:endIconMode="clear_text"
                 app:endIconTint="@color/black">
 
-
-
-
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:inputType="phone"/>
 
-
-
-
-
-
-
             </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/phoneNumberError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter phone Number"
+                android:textColor="#E10606"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"/>
+
 
 
             <com.google.android.material.textfield.TextInputLayout
@@ -159,24 +171,24 @@
                 app:endIconMode="password_toggle"
                 app:endIconTint="@color/black">
 
-
-
-
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/enterPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
                     android:inputType="textPassword"/>
 
-
-
-
-
-
-
             </com.google.android.material.textfield.TextInputLayout>
 
-
+            <TextView
+                android:id="@+id/passError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter password"
+                android:textColor="#E10606"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"/>
 
 
             <LinearLayout
@@ -193,23 +205,9 @@
                     android:backgroundTint="@color/black"
                     android:textColor="@color/white"/>
 
-
-
-
-
-
-
-
             </LinearLayout>
 
-
-
-
-
         </LinearLayout>
-
-
-
 
     </LinearLayout>
 

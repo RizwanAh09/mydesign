@@ -16,8 +16,8 @@ import com.google.android.material.button.MaterialButton;
 
 public class StartUpScreen extends AppCompatActivity {
 
-    Button login;
-    Button signUP,howWeWork;
+    MaterialButton login,signUP;
+    MaterialButton howWeWork;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
